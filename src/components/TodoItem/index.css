@@ -5,22 +5,46 @@
   margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .todo {
   font-family: 'Roboto';
-  font-size: 22;
+  font-size: 14px;
   font-weight: 500;
   color: #000000;
   text-align: center;
+  margin: 5px 5px 5px 5px;
 }
 
-button {
+.text {
+  text-decoration: line-through;
+}
+
+.del-btn {
   background-color: transparent;
   border: 1px solid #ff0b37;
   border-radius: 6px;
-  height: 33px;
+  padding: 6px 14px 6px 15px;
   width: 90px;
   color: #ff0b37;
-  margin-top: 10px;
+}
+
+.title-and-edit-con {
+  display: flex;
+}
+
+.edit-input {
+  width: 250px;
+}
+
+.edit-btn {
+  background-color: transparent;
+  border: none;
+  width: 70px;
+  cursor: pointer;
+
+  padding: 6px;
+  margin-left: 14px;
+  color: blue;
 }
